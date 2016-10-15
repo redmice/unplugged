@@ -1,0 +1,96 @@
+/*
+Theme Name: Unplugged
+Theme URI: http://unpluggedcoaching.com/theme/unplugged
+Author: RedMice
+Author URI: http://redmice.com
+Description: Designed for the unpluggedcoaching.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: moesia
+Text Domain: moesia-child
+Domain Path: /languages/
+Tags: two-columns, three-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+--------------------------------------------------------------*/
+
+blockquote {
+	border: 0;
+    margin: 0;
+}
+
+blockquote p{
+    margin-left: 2em
+}
+
+.bq-text {
+    background: #f9f9f9;
+    padding-bottom: 1em;
+}
+
+blockquote:before{
+	float: left;
+	margin-right: -1em;
+	font-family: FontAwesome;
+	font-size: 30px;
+	line-height: 1;
+	content: '\f10d';
+	color: #ff6b53;
+}
+
+cite {
+    color: #999;
+    padding-bottom: 10px
+}
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+
+.welcome-desc {
+    text-shadow: none
+}
+
+.has-banner, .overlay {
+    max-height: 480px !important;
+    height: 600px !important;
+    background-size: auto 480px !important;
+}
+
+/*--------------------------------------------------------------
+Center Services and Employees
+--------------------------------------------------------------*/
+
+.page-template-page_employees-php .employee.col-xs-6,
+.employees-area .col-xs-6 {
+		width: 49.5%;
+}
+
+@media (min-width: 768px) {
+	.page-template-page_employees-php .employee.col-sm-6,
+	.employees-area .col-sm-6 {
+		width: 49.5%;
+	}
+}
+@media (min-width: 992px) {
+	.page-template-page_employees-php .employee.col-md-4,
+	.employees-area .col-md-4 {
+		width: 55%;
+	}
+}
+
+/*--------------------------------------------------------------
+Social area
+--------------------------------------------------------------*/
+
+.social-area a:hover{
+    text-decoration: none
+}
+
+/*--------------------------------------------------------------
+Posts and pages
+--------------------------------------------------------------*/
+
+.entry-thumb img {
+	border: none
+}
